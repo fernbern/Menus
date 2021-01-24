@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="menu.css">
+
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="">
+                    <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <span class="title">About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="icon"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+                    <span class="title">Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <span class="title">Contact</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="toggle" onclick="toggleMenu()"></div>
+
+    <section class="home">
+        <div class="container">
+            <h1>FERNANDO CASTANON</h1>
+        </div>
+    </section>
+
+    <section class="home">
+        <div class="container">
+            <h1>ABOUT ME PAGE</h1>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="projects-content">
+                <div class="projects-grid">
+                    <div class="project-1">
+                        <img src="img/casitamex-1.png" alt="">
+                        <h4>Casita Mex Restaurant</h4>
+                        <p>Here is a little description about my little poroject
+                        and what I learned from doing this at work is there more
+                        you would like to know messega me on my email over here
+                        </p>
+                    </div>
+                    <div class="project-2">
+                        <img src="img/downey-dental-1.png" alt="">
+                        <h4>Downey Dental</h4>
+                        <p>Here is a little description about my little poroject
+                        and what I learned from doing this at work is there more
+                        you would like to know messega me on my email over here
+                        </p>
+                    </div>
+                    <div class="project-3">
+                        <img src="img/influencer-1.png" alt="">
+                        <h4>Influencer Mail</h4>
+                        <p>Here is a little description about my little poroject
+                            and what I learned from doing this at work is there more
+                            you would like to know messega me on my email over here
+                            </p>
+                    </div>
+                    <div class="project-4">
+                        <img src="img/movita-1.png" alt="">
+                        <h4>Movita Juice Bar</h4>
+                        <p>Here is a little description about my little poroject
+                            and what I learned from doing this at work is there more
+                            you would like to know messega me on my email over here
+                            </p>
+                    </div>
+                    <div class="project-5">
+                        <img src="img/tacos-gavilan-1.png" alt="">
+                        <h4>Tacos Gavilan</h4>
+                        <p>Here is a little description about my little poroject
+                            and what I learned from doing this at work is there more
+                            you would like to know messega me on my email over here
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home">
+        <div class="container">
+            <h1>CONTACT ME PAGE</h1>
+        </div>
+    </section>
+
+
+    <script type="text/javascript">
+    function toggleMenu() {
+        let navigation = document.querySelector('.navigation');
+        let toggle = document.querySelector('.toggle');
+        navigation.classList.toggle('active');
+        toggle.classList.toggle('active');
+    }
+    </script>
+</body>
+</html>
